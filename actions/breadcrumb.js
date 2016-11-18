@@ -1,6 +1,13 @@
 export const INIT_BREADCRUMB = 'SETUP_BREADCRUMB';
 export const APPEND_BREADCRUMB = 'APPEND_BREADCRUMB';
 export const INVOKE_BREADCRUMB = 'INVOKE_BREADCRUMB';
+
+export function initBreadcrumb() {
+  return {
+    type: INIT_BREADCRUMB
+  };
+}
+
 //
 // export function increment() {
 //   return {
